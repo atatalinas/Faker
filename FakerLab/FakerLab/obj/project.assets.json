@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\FakerLab\\FakerLab.csproj",
-      "projectName": "FakerLab",
-      "projectPath": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\FakerLab\\FakerLab.csproj",
+      "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\FakerLab\\Faker.csproj",
+      "projectName": "Faker",
+      "projectPath": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\FakerLab\\Faker.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\FakerLab\\obj\\",
       "projectStyle": "PackageReference",

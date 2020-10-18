@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakerLab", "FakerLab\FakerLab.csproj", "{ADFE5020-B08E-4550-A326-7354AD322BE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker", "FakerLab\Faker.csproj", "{ADFE5020-B08E-4550-A326-7354AD322BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseTypeGenerator", "BaseTypeGenerator\BaseTypeGenerator.csproj", "{58D2B90F-9197-4ADE-8C20-D2C32843E1A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ADFE5020-B08E-4550-A326-7354AD322BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADFE5020-B08E-4550-A326-7354AD322BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADFE5020-B08E-4550-A326-7354AD322BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D2B90F-9197-4ADE-8C20-D2C32843E1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D2B90F-9197-4ADE-8C20-D2C32843E1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D2B90F-9197-4ADE-8C20-D2C32843E1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D2B90F-9197-4ADE-8C20-D2C32843E1A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
