@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaseTypeGenerator
 {
-    public class Class1
+    public class BaseTypeGenerator
     {
     }
 }
