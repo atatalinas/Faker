@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "PluginInterface/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PluginInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PluginInterface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PluginInterface/1.0.0": {
+      "type": "project",
+      "path": "../PluginInterface/PluginInterface.csproj",
+      "msbuildProject": "../PluginInterface/PluginInterface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "PluginInterface >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\angel\\.nuget\\packages\\": {}
@@ -32,7 +50,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj": {
+              "projectPath": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

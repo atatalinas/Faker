@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj": {
+                "projectPath": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +58,17 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj",
+        "projectName": "PluginInterface",
+        "projectPath": "C:\\Users\\angel\\OneDrive\\Рабочий стол\\BSUIR\\5 сем\\СПП\\Faker\\FakerLab\\PluginInterface\\PluginInterface.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
