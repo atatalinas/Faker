@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Faker/1.0.0": {
+        "dependencies": {
+          "PluginInterface": "1.0.0"
+        },
         "runtime": {
           "Faker.dll": {}
+        }
+      },
+      "PluginInterface/1.0.0": {
+        "runtime": {
+          "PluginInterface.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Faker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PluginInterface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

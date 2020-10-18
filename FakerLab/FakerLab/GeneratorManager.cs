@@ -18,7 +18,7 @@ namespace Faker
         {
             var loader = new PluginsLoader<IGenerator>(PLUGINS_PATH);
 
-            generators = loader.Load();
+            generators = loader.LoadPlugins();
         }
         public bool IsGeneratable(Type type)
         {

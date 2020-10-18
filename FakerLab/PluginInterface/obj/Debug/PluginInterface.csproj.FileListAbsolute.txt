@@ -1,0 +1,6 @@
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\PluginInterface\bin\Debug\PluginInterface.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\PluginInterface\bin\Debug\PluginInterface.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\PluginInterface\obj\Debug\PluginInterface.csprojAssemblyReference.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\PluginInterface\obj\Debug\PluginInterface.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\PluginInterface\obj\Debug\PluginInterface.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\PluginInterface\obj\Debug\PluginInterface.pdb

@@ -11,3 +11,6 @@ C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\Fake
 C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\Faker.dll
 C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\Faker.pdb
 C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\Faker.genruntimeconfig.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\PluginInterface.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\PluginInterface.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\Faker.csproj.CopyComplete
