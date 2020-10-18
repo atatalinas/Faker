@@ -25,7 +25,13 @@ namespace Faker
                 return generatorsManager.Generate(type);
             }
 
-            if (processedTypes.Contains(type))
+            if (!processedTypes.Contains(type) && IsDTO(type))
+            {
+                MethodInfo createMethod = typeof(Faker).GetMethod("Create").MakeGenericMethod(type);
+                return createMethod.Invoke(this, null);
+            }
+
+            if (processedTypes.Contains(type) && IsDTO(type))
             {
                 return null;
             }
@@ -45,13 +51,42 @@ namespace Faker
 
                     for (int i = 0; i < length; i++)
                     {
-                        list.GetType().GetMethod("Add").Invoke(list, new[] { Generate(genericType) });
+                        list.GetType().GetMethod("Add").Invoke(list, new[] { GenerateType(genericType) });
                     }
 
                     return list;
                 }
             }
             return null;
+        }
+
+        public bool IsDTO(Type type)
+        {
+            return type.GetCustomAttributes(typeof(DTOAttribute), false).Length == 1;
+        }
+
+        public T Create<T>()
+        {
+            Type type = typeof(T);
+
+            if (!IsDTO(type))
+            {
+                return default;
+            }
+
+            processedTypes.Push(type);
+
+            var constructor = GetConstructor(type);
+
+            object[] parameters = GenerateParameters(constructor);
+            object obj = constructor.Invoke(parameters);
+
+            SetFieldsAndProperties(obj);
+
+
+            processedTypes.Pop();
+
+            return (T)obj;
         }
 
         private ConstructorInfo GetConstructor(Type type)
@@ -88,23 +123,6 @@ namespace Faker
                 .ForEach(p => p.SetValue(obj, GenerateType(p.PropertyType)));
         }
 
-        public T Create<T>()
-        {
-            Type type = typeof(T);
-
-            processedTypes.Push(type);
-
-            var constructor = GetConstructor(type);
-
-            object[] parameters = GenerateParameters(constructor);
-            object obj = constructor.Invoke(parameters);
-
-            SetFieldsAndProperties(obj);
-
-
-            processedTypes.Pop();
-
-            return (T)obj;
-        }
+        
     }
 }
