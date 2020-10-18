@@ -1,0 +1,9 @@
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\bin\Debug\DateTimeGenerator.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\bin\Debug\DateTimeGenerator.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\bin\Debug\PluginInterface.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\bin\Debug\PluginInterface.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\obj\Debug\DateTimeGenerator.csprojAssemblyReference.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\obj\Debug\DateTimeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\obj\Debug\DateTimeGenerator.csproj.CopyComplete
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\obj\Debug\DateTimeGenerator.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\DateTimeGenerator\obj\Debug\DateTimeGenerator.pdb

@@ -1,0 +1,9 @@
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\bin\Debug\BaseTypeGenerator.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\bin\Debug\BaseTypeGenerator.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\bin\Debug\PluginInterface.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\bin\Debug\PluginInterface.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\obj\Debug\BaseTypeGenerator.csprojAssemblyReference.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\obj\Debug\BaseTypeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\obj\Debug\BaseTypeGenerator.csproj.CopyComplete
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\obj\Debug\BaseTypeGenerator.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\BaseTypeGenerator\obj\Debug\BaseTypeGenerator.pdb
