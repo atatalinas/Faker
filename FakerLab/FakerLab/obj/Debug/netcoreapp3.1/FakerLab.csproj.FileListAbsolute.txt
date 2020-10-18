@@ -1,0 +1,13 @@
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\FakerLab.exe
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\FakerLab.deps.json
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\FakerLab.runtimeconfig.json
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\FakerLab.runtimeconfig.dev.json
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\FakerLab.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\bin\Debug\netcoreapp3.1\FakerLab.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.csprojAssemblyReference.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.AssemblyInfoInputs.cache
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.AssemblyInfo.cs
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.dll
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.pdb
+C:\Users\angel\OneDrive\Рабочий стол\BSUIR\5 сем\СПП\Faker\FakerLab\FakerLab\obj\Debug\netcoreapp3.1\FakerLab.genruntimeconfig.cache
