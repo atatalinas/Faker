@@ -9,6 +9,7 @@ namespace Faker
 {
     public class PluginsLoader<T> 
     {
+        //путь к плагинам
         private readonly string PLUGINS_PATH;
 
         public PluginsLoader(string path)
@@ -16,6 +17,7 @@ namespace Faker
             PLUGINS_PATH = path;
         }
 
+        //загрузка плагинов
         public List<T> LoadPlugins()
         {
             var pluginsDirectory = new DirectoryInfo(PLUGINS_PATH);
@@ -28,12 +30,16 @@ namespace Faker
             var assemblies = GetAssemblies();
             var plugins = GetPlugins(assemblies);
 
+            //получаем плагины
             return plugins;
         }
 
         private List<Assembly> GetAssemblies()
         {
+            //получаем файлы с расширением .dll
             var files = Directory.GetFiles(PLUGINS_PATH, "*.dll");
+
+            //загружаем сборку с заданным именем или путем
             var assemblies = files.Select(file => Assembly.LoadFrom(file)).ToList();
 
             return assemblies;
@@ -60,8 +66,10 @@ namespace Faker
                 {
                     foreach (var type in types)
                     {
+                        //Выполняем поиск интерфейса с заданным именем
                         if (type.GetInterface(typeof(T).Name) != null)
                         {
+                            //находим заданный тип в этой сборке и создает его экземпляр
                             var plugin = (T)asm.CreateInstance(type.FullName);
                             plugins.Add(plugin);
                         }

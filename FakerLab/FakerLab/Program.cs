@@ -16,6 +16,7 @@ namespace Faker
                 Console.Write($"{item}\n");
             }
 
+
             Console.ReadKey();
         }
     }

@@ -20,7 +20,8 @@ namespace DateTimeGenerator
         {
             return type == typeof(DateTime);
         }
-
+         
+        //получаем случайные дату и время
         public object Generate(Type type)
         {
             return new DateTime(random.Next(0, DateTime.Now.Year), random.Next(1, 12), random.Next(1, 30),

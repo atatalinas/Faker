@@ -15,6 +15,7 @@ namespace BaseTypeGenerator
             random = new Random();
         }
 
+        //является ли тип базовым
         public bool IsGeneratable(Type type)
         {
             if (new List<Type>() { typeof(bool), typeof(byte), typeof(sbyte),
@@ -28,6 +29,7 @@ namespace BaseTypeGenerator
             return false;
         }
 
+        //генератор для типа long
         private long GenerateLong()
         {
             byte[] buffer = new byte[8];
@@ -35,6 +37,7 @@ namespace BaseTypeGenerator
             return BitConverter.ToInt64(buffer, 0);
         }
 
+        //генератор для типа string
         private string GenerateString()
         {
             int count = random.Next(1, 20);
@@ -48,7 +51,7 @@ namespace BaseTypeGenerator
             return result;
         }
 
-
+        //получаем случайные значение
         public object Generate(Type type)
         {
             switch (Type.GetTypeCode(type))

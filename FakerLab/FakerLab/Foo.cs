@@ -20,7 +20,7 @@ namespace Faker
         private Foo()
         {
             floatValue = 30.6f;
-            str = "a";
+            str = "abc";
         }
     }
 }
